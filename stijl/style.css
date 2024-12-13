@@ -1,0 +1,168 @@
+html{
+    font-size: 14pt;
+    scroll-behavior: smooth;
+}
+
+::selection{
+    background-color: #8fa7af;
+    color: white;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #8fa7af;
+}
+
+header ul li{
+    text-align: center;
+}
+
+h1, h2, h3{
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #345779;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    color: white;;
+}
+
+ul{
+    list-style-type: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+input, textarea{
+    border: none;
+    border-radius: 5px;
+    background-color: #8fa7af;
+    color: white;
+}
+
+textarea{
+    min-height: 150px;
+    max-height: 150px;
+}
+
+footer{
+    background-color: #000000;
+    color: white;
+}
+
+ul a{
+    background-color: #fc9050;
+    color: white;
+}
+
+ul a:hover, ul a:focus{
+    background-color: #ffc775;
+    color: white;
+}
+
+#productWrap{
+    background-color: #efefef;
+}
+
+#contactWrap{
+    background-color: #efefef;
+}
+
+footer p{
+    font-size: .8rem;
+}
+
+footer p a{
+    color: #fc9050;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer p a:hover, footer p a:focus{
+    background-color: #fc9050;
+    color: white;
+}
+
+.product img, .product div, iframe{
+    border-radius: 5px;
+}
+
+.project{
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(247,247,247);
+}
+
+.project:hover{
+    cursor: pointer;
+    background-color: #ffc775;
+}
+
+.privacyList{
+    list-style-type: circle;
+}
+
+.primary-button{
+    background-color: #fc9050;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.primary-button:hover{
+    background-color: #ffc775;
+    color: white;
+}
+
+.accent{
+    color: #ffc775;
+    font-weight: bold;
+}
+
+#link{
+    color: #fc9050;
+    transition: 1s;
+}
+
+#link:hover{
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 1200px){
+    .product{
+        position: relative;
+    }
+
+    .product h3{
+        color: white;
+    }
+
+    .product div{
+        position: absolute;
+        top: 0;
+        background-color: rgba(0,0,0,.5);
+        color: white;
+        height: 100%;
+        width: 95%;
+        padding: 25px;
+        display: none;
+    }
+
+    .product:hover div{
+        display: flex;
+    }
+}
