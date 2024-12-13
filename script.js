@@ -8,7 +8,7 @@ function change_project(chosen_project){
 function get_info() {
     project_info = localStorage.getItem('project')
 
-    fetch('/data/data.json').then(
+    fetch('data/data.json').then(
         (res) => {
             if (!res.ok){
                 throw new Error
