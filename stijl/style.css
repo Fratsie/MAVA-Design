@@ -10,6 +10,7 @@ html{
 
 body{
     font-family: sans-serif;
+    z-index: 1;
 }
 
 header{
@@ -17,6 +18,21 @@ header{
 }
 
 header ul li{
+    text-align: center;
+}
+
+#nav-list{
+    display: none;
+    background-color: #345779;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    max-width: 70vw;
+    z-index: 2;
+}
+
+#dropdown{
     text-align: center;
 }
 
@@ -30,6 +46,7 @@ h1, h2, h3{
 
 a{
     text-decoration: none;
+    color: white;
 }
 
 h1{
@@ -46,6 +63,10 @@ img{
     height: auto;
 }
 
+i{
+    color: white;
+}
+
 input, textarea{
     border: none;
     border-radius: 5px;
@@ -60,16 +81,6 @@ textarea{
 
 footer{
     background-color: #000000;
-    color: white;
-}
-
-ul a{
-    background-color: #fc9050;
-    color: white;
-}
-
-ul a:hover, ul a:focus{
-    background-color: #ffc775;
     color: white;
 }
 
@@ -139,6 +150,25 @@ footer p a:hover, footer p a:focus{
 
 #link:hover{
     text-decoration: underline;
+}
+
+@media screen and (min-width: 768px){
+    #nav-list{
+        background-color: transparent;
+        display: block;
+        position: inherit;
+        right: inherit;
+        height: inherit;
+        max-width: inherit;
+    }
+
+    ul a{
+        background-color: #fc9050;
+    }
+    
+    ul a:hover, ul a:focus{
+        background-color: #ffc775;
+    }
 }
 
 @media screen and (min-width: 1200px){
