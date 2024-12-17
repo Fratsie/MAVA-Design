@@ -62,8 +62,20 @@ ul h2{
     color: white;
 }
 
-ul li:first-child{
+ul li{
     text-decoration: underline white;
+}
+
+#nav-links li{
+    text-decoration: none;
+}
+
+#nav-footer{
+    background-color: #000;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 img{
