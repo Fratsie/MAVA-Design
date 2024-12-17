@@ -66,12 +66,6 @@ ul li:first-child{
     text-decoration: underline white;
 }
 
-#nav-list footer{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
-
 img{
     max-width: 100%;
     height: auto;
