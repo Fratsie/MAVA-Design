@@ -40,7 +40,8 @@ header ul li{
     background-color: #000;
     color: white;
     position: absolute;
-    bottom: 0;
+    height: 100px;
+    bottom: 100px;
     left: 0;
 }
 
