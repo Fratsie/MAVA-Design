@@ -44,7 +44,7 @@ header ul li{
     background-color: #000000;
     color: white;
     position: absolute;
-    bottom: 100px;
+    top: 100px;
     height: 100px;
     width: 100vw;
 }
