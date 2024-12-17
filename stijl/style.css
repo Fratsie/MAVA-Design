@@ -36,6 +36,10 @@ header ul li{
     text-align: right;
 }
 
+#nav-list ul{
+    height: 90vh;
+}
+
 #dropdown{
     text-align: center;
 }
@@ -43,9 +47,7 @@ header ul li{
 #nav-footer{
     background-color: #000000;
     color: white;
-    position: absolute;
-    top: 100px;
-    height: 100px;
+    height: 10vh;
     width: 100vw;
 }
 
