@@ -23,7 +23,6 @@ header{
     position: absolute;
     top: 0;
     right: 0;
-    height: 100vh;
     max-width: 60vw;
     z-index: 2;
 }
