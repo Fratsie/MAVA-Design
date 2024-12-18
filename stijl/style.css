@@ -17,10 +17,6 @@ header{
     background-color: #8fa7af;
 }
 
-header ul li{
-    text-align: center;
-}
-
 #nav-list{
     display: none;
     background-color: #345779;
@@ -32,23 +28,16 @@ header ul li{
     z-index: 2;
 }
 
+#nav-list li{
+    text-align: center;
+}
+
 #nav-list li:first-child{
     text-align: right;
 }
 
-#nav-list ul{
-    height: 90vh;
-}
-
 #dropdown{
     text-align: center;
-}
-
-#nav-footer{
-    background-color: #000000;
-    color: white;
-    height: 10vh;
-    width: 100vw;
 }
 
 h1, h2, h3{
