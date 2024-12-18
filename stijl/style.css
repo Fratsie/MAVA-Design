@@ -23,8 +23,10 @@ header{
     position: absolute;
     top: 0;
     right: 0;
+    height: 100vh;
     max-width: 60vw;
     z-index: 2;
+    transition: .5s;
 }
 
 #nav-list li{
@@ -33,6 +35,11 @@ header{
 
 #nav-list li:first-child{
     text-align: right;
+}
+
+#nav-footer:hover, #nav-footer:active{
+    color: #fc9050;
+    text-decoration: unerline;
 }
 
 #dropdown{
