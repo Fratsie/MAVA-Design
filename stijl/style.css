@@ -26,29 +26,34 @@ header{
     height: 100vh;
     max-width: 60vw;
     z-index: 2;
-    transition: .5s;
 }
 
 #nav-list li{
     text-align: center;
 }
 
-#nav-list li:first-child{
-    text-align: right;
+#nav-footer{
+    text-align: center;
 }
 
-#nav-footer:hover, #nav-footer:active{
+#nav-footer a:hover, #nav-footer a:active{
     color: #fc9050;
     text-decoration: unerline;
 }
 
 #dropdown{
     text-align: center;
+    color: white;
+}
+
+#closeDropdown{
+    color: white;
+    text-align: right;
 }
 
 h1, h2, h3{
-    font-family: "Lilita One", sans-serif;
-    font-weight: 400;
+    font-family: "Passion One", serif;
+    font-weight: 700;
     font-style: normal;
     text-transform: uppercase;
     color: #345779;
@@ -61,7 +66,6 @@ a{
 
 h1{
     text-align: center;
-    color: white;;
 }
 
 ul{
@@ -71,10 +75,6 @@ ul{
 img{
     max-width: 100%;
     height: auto;
-}
-
-i{
-    color: white;
 }
 
 input, textarea{
@@ -89,9 +89,8 @@ textarea{
     max-height: 150px;
 }
 
-footer{
-    background-color: #000000;
-    color: white;
+#mainWrap{
+    min-height: 100vh;
 }
 
 #productWrap{
@@ -100,6 +99,11 @@ footer{
 
 #contactWrap{
     background-color: #efefef;
+}
+
+footer{
+    background-color: #000000;
+    color: white;
 }
 
 footer p{

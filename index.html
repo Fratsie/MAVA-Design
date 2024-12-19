@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="MAVA-Design">
-    <meta name="description" content="Wil je je onderneming online perfect vertegenwoordigen? Dan ben je hier aan het juiste adres.">
+    <meta name="description" content="Wil je jouw onderneming online professioneel en sterk presenteren? Je bent hier aan het juiste adres!">
+
     <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-reboot.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css" />
@@ -22,14 +23,13 @@
         <div class="container">
             <div class="row">
                 <p class="col-md-6 offset-md-3"><a href="#"><img src="afbeeldingen/logo.svg" alt="Mava-Design logo"></a></p>
-                <div class="d-flex col-12">
-                    <h1 class="col-8 col-md-12">MAVA-DESIGN</h1>
-                    <p id="dropdown" onclick="dropdown(true)" class="col-4 d-md-none pt-1"><i class="fa-solid fa-bars fa-xl"></i></p>   
+                <div class="col-12">
+                    <p id="dropdown" onclick="dropdown(true)" class="d-md-none pt-1"><i class="fa-solid fa-bars fa-xl"></i></p>   
                 </div>
 
                 <div id="nav-list" class="col-12 pt-md-0">
                     <ul class="row p-0 m-0">
-                        <li class="col-12 pt-3 d-md-none"><p onclick="dropdown(false)"><i class="fa-solid fa-xmark fa-2x"></i></p></li>
+                        <li class="col-12 pt-3 d-md-none"><p id="closeDropdown" onclick="dropdown(false)"><i class="fa-solid fa-xmark fa-2x"></i></p></li>
                         <li class="col-md-6 col-lg-3 d-flex p-md-0 pb-3"><a class="col-12 p-2" href="#overMij" onclick="dropdown(false)">Over mij</a></li>
                         <li class="col-md-6 col-lg-3 d-flex p-md-0 pb-3"><a class="col-12 p-2" href="#producten" onclick="dropdown(false)">Producten</a></li>
                         <li class="col-md-6 col-lg-3 d-flex p-md-0 pb-3"><a class="col-12 p-2" href="#projecten" onclick="dropdown(false)">Projecten</a></li>
@@ -37,8 +37,8 @@
                     </ul>
 
                     <div id="nav-footer" class="row justify-content-center d-md-none mt-5">
-                        <p class="col-12"><a class="p-2" href="#insta"><i class="fa-brands fa-instagram"></i> Instagram</a></p>
-                        <p class="col-12"><a class="p-2" href="https://www.linkedin.com/in/mats-vanspringel/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></p>
+                        <p class="col-12"><a class="p-2" href="#insta" target="_blank" onclick="dropdown(false)"><i class="fa-brands fa-instagram"></i> Instagram</a></p>
+                        <p class="col-12"><a class="p-2" href="https://www.linkedin.com/in/mats-vanspringel/" target="_blank" onclick="dropdown(false)"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></p>
                     </div>
                 </div>
             </div>
@@ -46,7 +46,10 @@
     </header>
 
     <div id="main" class="container">
+
         <div id="overMij" class="row my-3 align-items-center">
+            <h1 class="col-12">MAVA-DESIGN</h1>
+
             <img class="col-md-6 col-lg-4 order-lg-2 order-2 order-md-1" src="afbeeldingen/overMij.jpg" alt="Foto Mats Vanspringel">
         
             <div class="col-md-6 col-lg-8 order-lg-1 order-1 order-md-2">
