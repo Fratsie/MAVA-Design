@@ -93,12 +93,8 @@ textarea{
     min-height: 100vh;
 }
 
-#productWrap{
-    background-color: #efefef;
-}
-
-#contactWrap{
-    background-color: #efefef;
+#productWrap, #contactWrap{
+    background-color: rgba(0,0,0,.15);
 }
 
 footer{
