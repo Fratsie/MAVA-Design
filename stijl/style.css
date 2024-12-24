@@ -204,4 +204,8 @@ footer p a:hover, footer p a:focus{
     .product:hover div{
         display: flex;
     }
+
+    .transition{
+        transition: .5s ease;
+    }
 }
